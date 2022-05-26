@@ -1,6 +1,4 @@
 names = []
-letters = []
-all_letters = []
 with open("Input/Names/invited_names.txt", "r") as invited_names_file:
     for name in invited_names_file.readlines():
         i = name.replace("\n", "")
